@@ -1,0 +1,12 @@
+import_code("/root/source/libui.src")
+
+choices = []
+
+for i in range(0,24)
+    choice = [i, "Choice number: "+i]
+    choices.push( choice)
+end for
+
+choice = menu( "Choose something", choices)
+
+print "You have chosen: "+choice
