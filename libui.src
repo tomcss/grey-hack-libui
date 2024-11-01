@@ -71,7 +71,7 @@ menu = function( title, choices)
 	
 		display_title = title
 		if max_page > 0 then
-			display_title = "< "+ title +" ("+page+1+"/"+max_page+1+") >"
+			display_title = "< "+ title +" ("+(page+1)+"/"+(max_page+1)+") >"
 		end if
 
 		show_menu(
